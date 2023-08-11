@@ -31,3 +31,23 @@ nav {
   color: black;
   text-decoration: none;
 }
+
+.banner {
+  min-height: 400px;
+  background-image: url(./banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 44px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0px 10px;
+  border-radius: 10px;
+}
